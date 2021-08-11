@@ -1,0 +1,41 @@
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: slategray;
+    border: solid royalblue;
+    color: snow;
+    padding: 20px;
+    margin: 20px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: slategray;
+    border: solid royalblue;
+    color: snow;
+    padding: 20px;
+    margin: 20px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: slategray;
+    border: solid royalblue;
+    color: snow;
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+    border: 5px solid red;
+    height: 600px;
+    margin: 20px;
+}
