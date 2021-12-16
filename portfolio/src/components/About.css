@@ -35,7 +35,7 @@
 }
 
 img {
-    border: 5px solid red;
+    border-style: hidden;
     height: 600px;
     margin: 20px;
 }
