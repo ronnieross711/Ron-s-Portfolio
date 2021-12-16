@@ -43,7 +43,7 @@ function About(props) {
                 moving a wheelbarrow full of concrete where it needs to go. But after years on the job, you finally become a 
                 carpenter who can frame a house by looking at the blueprints and you understand what all of the symbols 
                 on the page mean.  When you begin to code you start with simple coding exercises like getting an alert to 
-                pop up and say "Hello World". After weeks of practice and concouring JavaScript you can then build your own 
+                pop up and say "Hello World". After weeks of practice and conquering JavaScript you can then build your own 
                 functional and dynamic website. I am by no means the greatest software developer in the world, but I know with hard
                 work and determination I will be the best that I can be, and all it takes is hard work, time, and patience. This is my portfilio and I built
                 it with REACT.
