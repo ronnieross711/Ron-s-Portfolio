@@ -13,7 +13,7 @@ function About(props) {
                 MongoDB, Mongoose, SQL, Python, Django, and C#.
             </p>
             <p className='second'>     
-                I have a an old hard working mindset and I don't want things in life given to me. I enjoy working hard to succeed. 
+                I have an old, hard working mindset and I don't want things in life given to me. I enjoy working hard to succeed. 
                 There's nothing like that feeling of success after hours or even
                 days of trial and error. I learned carpentry from my father and I chose to 
                 follow in my father's footsteps and become a carpenter after high school.  
