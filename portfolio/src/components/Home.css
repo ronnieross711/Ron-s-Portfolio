@@ -19,9 +19,24 @@
     justify-content: right;
     align-items: right;
     border: solid rgb(5, 144, 139);
+    background-color: #000;
     font-size: 1.05rem;
     width: 400px;
     padding: 40px;
     margin: 20px;
 
+
+}
+
+p {
+    background-color: #000;
+    padding: 20px 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .pTag {
+      justify-content: center;
+      margin: 20px 20px 20px 20px;
+      padding: 20px 20px;
+    }
 }
