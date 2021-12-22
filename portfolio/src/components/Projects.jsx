@@ -20,6 +20,19 @@ function Projects(props) {
 
       <br />
 
+      <button className="pokemonButton">
+        <Link className="pokemon-button"
+          to={{
+            pathname: " https://ronnieross711.github.io/Pokemon-API/",
+          }}
+          target="_blank"
+        >
+          Pokémon API
+        </Link>
+      </button>
+
+      <br />
+
       <button className="ageButton">
         <Link className="age-button"
           to={{
