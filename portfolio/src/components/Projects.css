@@ -85,6 +85,25 @@ body {
     transform: translate(12px, 12px)
 }
 
+.pokemonButton {
+    background: rgba(22, 147, 242, 0.77);
+    border-radius: 10px;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: relative;
+    margin: 32px;
+    transition: transform 0.3s ease;
+
+}
+
+.pokemonButton:hover {
+    transform: translate(20px, -20px);
+}
+
+.pokemon-button {
+    color: aliceblue;
+}
+
 .ageButton {
     text-decoration: none;
     background:slateblue;
@@ -96,12 +115,18 @@ body {
     transition: transform 0.3s ease;
 }
 
+.ageButton:hover {
+    transform: translate(5px, 5px);
+}
+
 .age-button {
     text-decoration: none;
     color: darkblue;
 }
 
-.ageButton::after, .ageButton::before {
+
+/* This code never seemed to work for some reason, but it's good to keep for reference. */
+/* .ageButton::after, .ageButton::before {
     border: 3px solid black;
     content: '';
     position: absolute;
@@ -111,7 +136,7 @@ body {
     bottom: 0;
     z-index: -1;
     transition: transform 0.3s ease;
-}
+} */
 
 .ageButton:hover::after {
     transform: translate(-5px, -5px)
@@ -212,7 +237,7 @@ body {
 
 .blackJackGame {
     text-decoration: none;
-    background: grey;
+    background: rgba(9, 2, 9, 0.618);
     padding: 20px 50px;
     font-size: 1.25rem;
     position: relative;
@@ -220,12 +245,16 @@ body {
     transition: transform 0.3s ease;
 }
 
-.blackjack-game {
-    text-decoration: none;
-    color: white;
+.blackJackGame:hover {
+    transform: translate(-60px, 5px);
 }
 
-.blackJackGame::after, .blackJackGame::before {
+.blackjack-game {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* .blackJackGame::after, .blackJackGame::before {
     border: 7px solid #000;
     content: "";
     position: absolute;
@@ -235,7 +264,7 @@ body {
     bottom: 0;
     z-index: -1;
     transition: transform 0.3s ease;
-}
+} */
 
 .blackJackGame:hover::after {
     transform: translate(-5px, -5px)
